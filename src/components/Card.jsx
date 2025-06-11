@@ -4,7 +4,7 @@
 import { useEffect, useRef, useState } from "react";
  import Button from "./Button";
 
-const Card = ({ title, text, icons, label, href, className, onClick, index, ...props }) => {
+const Card = ({ title, text, subtext, icons, label, href, className, onClick, index, ...props }) => {
   const [isVisible, setIsVisible] = useState(false);
   const cardRef = useRef(null);
 
@@ -77,7 +77,9 @@ const Card = ({ title, text, icons, label, href, className, onClick, index, ...p
           transitionDelay: `${index * 150 + 400}ms`
         }}
       >
+        
         <pre>{text}</pre>
+        <p>{subtext}</p>
       </div>
       
       <div

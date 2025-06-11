@@ -284,8 +284,8 @@ const Navbar = () => {
 
             <div className="resume-download">
               <a
-                href="../../resume/Zekeri CV.pdf"
-                target="_blank"
+                href="/resume/Zekeri-CV.pdf"
+               
                 download="Zekeri CV.pdf"
                 rel="noopener noreferrer"
                 className="download-btn"
