@@ -24,8 +24,9 @@ const Experience = () => {
         <Card
           icons={"fa-solid fa-microchip"}
           title={"DevOps Engineer"}
-          text={` FirstBank Nigeria
-2023-01 - Current
+          text={`FirstBank Nigeria
+2023-01 - Current 
+
 Developed CI/CD pipeline with Azure DevOps (ADO),
  Code-Build and Code-Deploy, 
  Artifactory and Ansible to facilitate rapid deployment and
