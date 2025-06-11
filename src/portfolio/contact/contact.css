@@ -1,0 +1,15 @@
+.contact-me {
+  width: 100%;
+  max-height: 450px;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 25px;
+}
+.contact-me p {
+  color: white;
+  font-size: 1.5;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
