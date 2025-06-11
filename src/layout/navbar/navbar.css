@@ -478,6 +478,17 @@
 
   .content-wrapper {
     max-width: 400px;
-    white-space: wrap;
+    text-wrap: wrap;
+  }
+
+  .content-wrapper .hero-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .content-wrapper .hero-subtitle {
+    font-size: .9rem;
+    font-weight: bold;
+    text-wrap: wrap;
   }
 }
