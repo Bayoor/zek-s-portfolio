@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect, useRef } from "react";
 import dp from "../../assets/images/dp.jpeg";
-import "./About.css";
+import "./about.css";
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
