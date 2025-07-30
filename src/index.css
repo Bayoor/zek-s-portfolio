@@ -19,6 +19,7 @@
 body {
   min-width: 320px;
   min-height: 100vh;
+  margin:  0 auto;
   overflow-x: hidden;
 }
 
@@ -195,6 +196,9 @@ body {
   border: 1px solid rgba(249, 0, 77, 0.1);
   backdrop-filter: blur(10px);
   will-change: transform;
+  scrollbar-gutter: stable;
+  scroll-snap-type: none;
+  
 }
 
 .card::before {
@@ -228,15 +232,19 @@ body {
 
 .card::-webkit-scrollbar {
   width: 3px;
+  height: 1px;
 }
 
 .card::-webkit-scrollbar-track {
   background: transparent;
+  height: 1;
+  border: none;
 }
 
 .card::-webkit-scrollbar-thumb {
   background: rgba(249, 0, 77, 0.3);
   border-radius: 10px;
+  height: 1px;
 }
 
 .card::-webkit-scrollbar-thumb:hover {

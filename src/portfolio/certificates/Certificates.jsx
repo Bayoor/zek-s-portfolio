@@ -7,7 +7,7 @@ const Certificates = () => {
       <div className="title">
         <h2>Certifications</h2>
       </div>
-      <div className="box">
+      <div className="box" style={{margin: '0 auto'}}>
         <Card
           icons={"fa-brands fa-linux"}
           title={"The Linux Foundation Certificates"}

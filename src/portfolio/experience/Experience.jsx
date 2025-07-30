@@ -20,7 +20,7 @@ const Experience = () => {
         </p>
       </div>
 
-      <div className="box">
+      <div className="box" style={{margin: '0 auto'}}>
         <Card
           icons={"fa-solid fa-microchip"}
           title={"DevOps Engineer"}

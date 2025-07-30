@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useRef, useState } from "react";
 import Card from "../../components/Card";
 
@@ -65,7 +64,7 @@ const Services = () => {
         </h2>
       </div>
 
-      <div className="box">
+      <div className="box" style={{margin: '0 auto'}}>
         <Card
           index={0}
           icons="fa-solid fa-laptop"
