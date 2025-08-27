@@ -10,8 +10,9 @@ const Contact = () => {
         label={"Hire Me"}
        className="button btn-bg"
       />
-      
     </div>
+
+
   );
 };
 

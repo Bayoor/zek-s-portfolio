@@ -37,6 +37,14 @@ const Footer = () => {
         >
           <i className="fa-brands fa-twitter"></i>
         </a>
+
+          <a
+              href="https://github.com/abdullahizekeri?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+              <i className="fa-brands fa-github"></i>
+          </a>
       </div>
       <p className="end">CopyRight &copy; by Abdullahi Zekeri</p>
     </footer>

@@ -234,6 +234,9 @@ body {
   width: 3px;
   height: 1px;
 }
+.card:single-button {
+  background-color: lightblue;
+}
 
 .card::-webkit-scrollbar-track {
   background: transparent;

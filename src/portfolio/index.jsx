@@ -15,7 +15,6 @@ const Portfolio = () => {
       <Experience />
       <Certificates />
       <Contact />
-
       <Footer />
     </div>
   );
