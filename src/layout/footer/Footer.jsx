@@ -24,7 +24,7 @@ const Footer = () => {
           <i className="fa-brands fa-instagram"></i>
         </a>
         <a
-          href="https://www.linkedin.com/in/abdullahi-zekeri-496457158"
+          href="https://www.linkedin.com/in/engr-abdullahi-zekeri/"
           target="_blank"
           rel="noopener noreferrer"
         >
